@@ -10,6 +10,10 @@ body{
 
 h1,h2{
 	font-family: 'Playfair Display', serif;
+	color: #2997FF;
+}
+
+p{
 	color: #FAFAFA;
 }
 
@@ -236,7 +240,8 @@ footer .contacto .form .button:hover {
 }
 
 footer .social {
-	background: #222233;
+	background: #444445;
+	opacity: 0.5;
 	padding: 60px 0;
 }
 
