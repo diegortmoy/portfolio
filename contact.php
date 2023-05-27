@@ -6,7 +6,7 @@
 				
 					
 
-					$sendto  = "info@iahutt.com";
+					$sendto  = "diegortmoy@gmail.com";
 					
 					$subject = "Formulario de contacto";
 	 
@@ -18,7 +18,7 @@
 
 					$header = "Content-Type: text/html; charset=UTF-8\n";
 					
-					$header .= 'From: ia Hutt Web Site <info@iahutt.com> ' . "\r\n" .'Reply-To:  '. trim($_POST['email']) . "\r\n" .'X-Mailer: PHP/' . phpversion() . "\r\n";
+					$header .= 'From: Diegortmoy Git Web Site <diegortmoy@gmail.com> ' . "\r\n" .'Reply-To:  '. trim($_POST['email']) . "\r\n" .'X-Mailer: PHP/' . phpversion() . "\r\n";
 					
 					// $header .= 'Cc: ' .$pCCto. "\r\n";	 
 		
