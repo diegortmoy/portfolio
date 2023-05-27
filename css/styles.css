@@ -8,9 +8,14 @@ body{
 	background: #000000;
 }
 
-h1,h2{
+h1{
 	font-family: 'Playfair Display', serif;
 	color: #2997FF;
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	color: C0C0C0;
 }
 
 p{
@@ -114,7 +119,7 @@ header .menu a:hover {
 }
 
 .mainSection .about .text .bold {
-	color: #EED369;
+	color: #D4AF37;
 }
 
 /*----- PORTFOLIO -----*/
@@ -164,7 +169,7 @@ header .menu a:hover {
 
 .mainSection .portfolio .container-portfolio .job .description .name {
 	font-weight: 700;
-	color: #AACCFF;
+	color: #7aa3e6;
 	margin-bottom: 10px;
 }
 
@@ -260,11 +265,10 @@ footer .social a {
 	margin: 0 10px;
 }
 
-footer .social .twitter:hover {	background: #1da1f2; }
+footer .social .linkedin:hover {	background: #0A66C2; }
 footer .social .facebook:hover { background: #3b5998; }
-footer .social .youtube:hover {	background: #cd201f; }
 footer .social .github:hover { background: #666666; }
-footer .social .instagram:hover { background: #3f729b; }
+footer .social .instagram:hover { background: #E4405F; }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
 @media screen and (max-width: 800px) {
