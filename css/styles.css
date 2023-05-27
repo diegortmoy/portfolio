@@ -119,7 +119,7 @@ header .menu a:hover {
 }
 
 .mainSection .about .text .bold {
-	color: #619cd4;
+	color: #00D7FF;
 }
 
 /*----- PORTFOLIO -----*/
@@ -265,7 +265,7 @@ footer .social a {
 	margin: 0 10px;
 }
 
-footer .social .linkedin:hover {	background: #0A66C2; }
+footer .social .linkedin:hover { background: #0A66C2; }
 footer .social .facebook:hover { background: #3b5998; }
 footer .social .github:hover { background: #666666; }
 footer .social .instagram:hover { background: #E4405F; }
