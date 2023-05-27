@@ -1,35 +1,20 @@
 <?php
-
-    if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['comments']) ){	
-	   
-			if (trim($_POST['name']) != ""  && trim($_POST['email']) != ""  && trim($_POST['comments']) != "" ){	
-				
-					
-
-					$sendto  = "diegortmoy@gmail.com";
-					
-					$subject = "Formulario de contacto";
-	 
-					$message = "<table cellpadding='0' cellspacing='0'>";
-					$message .= "<tr><td style='padding:3px 5px;'>Full Name:</td><td style='padding:3px 5px;'>".$_POST["name"]."</td></tr>";	
-					$message .= "<tr><td style='padding:3px 5px;'>Email:</td><td style='padding:3px 5px;'>".$_POST["email"]."</td></tr>";					
-					$message .= "<tr><td style='padding:3px 5px;'>Comments:</td><td style='padding:3px 5px;'>".$_POST["comments"]."</td></tr>";
-					$message .= "</table>";
-
-					$header = "Content-Type: text/html; charset=UTF-8\n";
-					
-					$header .= 'From: Diegortmoy Git Web Site <diegortmoy@gmail.com> ' . "\r\n" .'Reply-To:  '. trim($_POST['email']) . "\r\n" .'X-Mailer: PHP/' . phpversion() . "\r\n";
-					
-					// $header .= 'Cc: ' .$pCCto. "\r\n";	 
-		
-					// $header .= 'Bcc: '. $pBCCto . "\r\n"; 		
-			 
-					mail($sendto, $subject, $message, $header);	
-						
-				 
-				 header('location:'.$_POST["link"].'?thanks=true#thanksMessage');
-				
-				}			
-	  		}
-	
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $nombre = $_POST['nombre'];
+  $email = $_POST['email'];
+  $asunto = $_POST['asunto'];
+  $mensaje = $_POST['mensaje'];
+  
+  // Configura los detalles del correo electrónico
+  $destinatario = 'diegortmoy@gmail.com'; 
+  $cabeceras = "From: $nombre <$email>" . "\r\n";
+  
+  // Envía el correo electrónico
+  if (mail($destinatario, $asunto, $mensaje, $cabeceras)) {
+    echo "Correo enviado exitosamente";
+  } else {
+    echo "Error al enviar el correo";
+  }
+}
 ?>
+
