@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST");
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Recupera los datos del formulario
   $nombre = $_POST['nombre'];
