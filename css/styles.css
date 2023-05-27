@@ -5,7 +5,7 @@
 }
 
 body{
-	background: #444445;
+	background: #000000;
 }
 
 h1,h2{
@@ -33,12 +33,12 @@ p{
 }
 
 .container-text{
-	color: #0066CC;	
+	color: #b8b8b8;	
 	text-align: center;
 }
 
 .enter{
-	color: #00D7FF;
+	color: #FAFAFA;
 	text-decoration: none;
 	font-family: 'Playfair Display', serif;
 	font-size: 16px;
@@ -97,7 +97,7 @@ header .menu a:hover {
 }
 
 .mainSection .about .text {
-	color: #AACCFF;
+	color: #2997FF;
 	font-size: 1em;
 	line-height: 30px;
 	width: 80%;
@@ -109,7 +109,7 @@ header .menu a:hover {
 	line-height: 34px;
 	margin-bottom: 40px;
 	font-weight: 400;
-	color: #AACCFF;
+	color: #2997FF;
 	text-align: center;
 }
 
@@ -131,7 +131,7 @@ header .menu a:hover {
 	line-height: 34px;
 	margin-bottom: 40px;
 	font-weight: 400;
-	color: #AACCFF;
+	color: #2997FF;
 	text-align: center;
 }
 
@@ -183,7 +183,7 @@ footer .contacto .title {
 	line-height: 34px;
 	margin-bottom: 40px;
 	font-weight: 300;
-	color: #AACCFF;
+	color: #2997FF;
 	text-align: center;
 }
 
@@ -240,8 +240,7 @@ footer .contacto .form .button:hover {
 }
 
 footer .social {
-	background: #444445;
-	opacity: 0.5;
+	background: #000000;
 	padding: 60px 0;
 }
 
