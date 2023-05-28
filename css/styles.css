@@ -245,8 +245,9 @@ footer .contacto .form .button:hover {
 }
 
 footer .social {
-	background: #2b2c2c;
+	background: #292828;
 	padding: 60px 0;
+	opacity: 50%;
 }
 
 footer .social .container {
