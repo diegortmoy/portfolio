@@ -269,6 +269,7 @@ footer .social .linkedin:hover { background: #0A66C2; }
 footer .social .facebook:hover { background: #3b5998; }
 footer .social .github:hover { background: #666666; }
 footer .social .instagram:hover { background: #E4405F; }
+footer .social .email:hover { background: #DB4437; }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
 @media screen and (max-width: 800px) {
